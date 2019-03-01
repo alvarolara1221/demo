@@ -1,14 +1,120 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+    "code": 200,
+    "message": "Vuelos encontrados con exito",
+    "miles_price": 1000,
+    "flight_found": [
+        {
+            "total": 475.03,
+            "departure": [
+                {
+                    "ArrivalAirportDescription": "Caracas (Venezuela) - CCS",
+                    "ArrivalAirport": "CCS",
+                    "ArrivalTime": "2019-03-03T10:20:00",
+                    "DepartureAirportDescription": "Barcelona (Venezuela) - BLA",
+                    "DepartureAirport": "BLA",
+                    "DepartureTime": "2019-03-03T09:30:00",
+                    "FlightNumber": "41",
+                    "BookingClass": "X",
+                    "SearchedBookingClass": "Y",
+                    "StopQuantity": 0,
+                    "OperatingAirline": "9V",
+                    "AirEquipmentType": null,
+                    "MarketingAirline": "9V",
+                    "MarketingCabinCode": "O",
+                    "EquipmentType": "732",
+                    "MarriageGroup": false,
+                    "ETKTAplicable": true
+                },
+                {
+                    "ArrivalAirportDescription": "Miami FL (United States) - MIA",
+                    "ArrivalAirport": "MIA",
+                    "ArrivalTime": "2019-03-03T16:30:00",
+                    "DepartureAirportDescription": "Caracas (Venezuela) - CCS",
+                    "DepartureAirport": "CCS",
+                    "DepartureTime": "2019-03-03T14:00:00",
+                    "FlightNumber": "1226",
+                    "BookingClass": "X",
+                    "SearchedBookingClass": "Y",
+                    "StopQuantity": 0,
+                    "OperatingAirline": "9V",
+                    "AirEquipmentType": null,
+                    "MarketingAirline": "9V",
+                    "MarketingCabinCode": "I",
+                    "EquipmentType": "M83",
+                    "MarriageGroup": true,
+                    "ETKTAplicable": true
+                }
+            ],
+            "return": [
+                {
+                    "ArrivalAirportDescription": "Barcelona (Venezuela) - BLA",
+                    "ArrivalAirport": "BLA",
+                    "ArrivalTime": "2019-03-18T11:30:00",
+                    "DepartureAirportDescription": "Miami FL (United States) - MIA",
+                    "DepartureAirport": "MIA",
+                    "DepartureTime": "2019-03-18T08:00:00",
+                    "FlightNumber": "1223",
+                    "BookingClass": "H",
+                    "SearchedBookingClass": "Y",
+                    "StopQuantity": 0,
+                    "OperatingAirline": "9V",
+                    "AirEquipmentType": null,
+                    "MarketingAirline": "9V",
+                    "MarketingCabinCode": "O",
+                    "EquipmentType": "340",
+                    "MarriageGroup": false,
+                    "ETKTAplicable": true
+                }
+            ],
+            "BaggageD": 1,
+            "BaggageR": 2
+        },
+        {
+            "total": 526.63,
+            "departure": [
+                {
+                    "ArrivalAirportDescription": "Miami FL (United States) - MIA",
+                    "ArrivalAirport": "MIA",
+                    "ArrivalTime": "2019-03-03T20:30:00",
+                    "DepartureAirportDescription": "Barcelona (Venezuela) - BLA",
+                    "DepartureAirport": "BLA",
+                    "DepartureTime": "2019-03-03T18:00:00",
+                    "FlightNumber": "1222",
+                    "BookingClass": "T",
+                    "SearchedBookingClass": "Y",
+                    "StopQuantity": 0,
+                    "OperatingAirline": "9V",
+                    "AirEquipmentType": null,
+                    "MarketingAirline": "9V",
+                    "MarketingCabinCode": "O",
+                    "EquipmentType": "340",
+                    "MarriageGroup": false,
+                    "ETKTAplicable": true
+                }
+            ],
+            "return": [
+                {
+                    "ArrivalAirportDescription": "Barcelona (Venezuela) - BLA",
+                    "ArrivalAirport": "BLA",
+                    "ArrivalTime": "2019-03-18T11:30:00",
+                    "DepartureAirportDescription": "Miami FL (United States) - MIA",
+                    "DepartureAirport": "MIA",
+                    "DepartureTime": "2019-03-18T08:00:00",
+                    "FlightNumber": "1223",
+                    "BookingClass": "H",
+                    "SearchedBookingClass": "Y",
+                    "StopQuantity": 0,
+                    "OperatingAirline": "9V",
+                    "AirEquipmentType": null,
+                    "MarketingAirline": "9V",
+                    "MarketingCabinCode": "O",
+                    "EquipmentType": "340",
+                    "MarriageGroup": false,
+                    "ETKTAplicable": true
+                }
+            ],
+            "BaggageD": 4,
+            "BaggageR": 2
+        }
+    ]
+}​
